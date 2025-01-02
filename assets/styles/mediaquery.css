@@ -1,0 +1,111 @@
+@media(max-width: 1549px) {
+
+    .special-offer {
+        max-width: 50%;
+    }
+
+    .offer-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contacts {
+        padding-right: 20px;
+        display: block;
+        max-width: 50%;
+    }
+}
+
+
+@media(max-width: 759px) {
+    body {
+        padding-top: 150px;
+    }
+
+    .heading-title {
+        font-size: 1.2rem;
+    }
+
+    .navigation-list {
+        gap: 30px;
+    }
+
+    .navigation-list a {
+        font-size: 1rem;
+    }
+
+    table {
+        margin-bottom: 50px;
+    }
+
+    td,
+    th {
+        border: 1px solid var(--brand-brown-color);
+    }
+
+    table:not(th) {
+        font-size: 0.6rem;
+    }
+
+    table th {
+        font-size: 0.7rem;
+    }
+
+    tbody td:nth-child(1),
+    thead th:first-child {
+        display: none;
+    }
+
+    .hidden-title {
+        display: table-cell;
+    }
+
+    .special-offer {
+        max-width: 40%;
+        border: 1px solid var(--brand-brown-color);
+        padding: 10px;
+    }
+    .special-offer-title {
+        font-size: 0.8rem;
+        margin-bottom: 15px;
+    }
+
+    .offer-wrapper {
+        font-size: 0.7rem;
+        text-align: center;
+        flex-direction: column;
+        gap: 15px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .offer-heading {
+        font-size: 1rem;
+    }
+
+    .offer-add-descr, .offer-weight {
+        font-size: 0.6rem;
+    }
+
+    .special-offer:hover .offer-wrapper {
+    height: auto;
+    overflow: auto;
+    }
+
+    .special-offer-btn {
+        margin-top: 10px;
+        text-align: center;
+        padding: 5px;
+        font-size: 0.7rem;
+        border: 1px solid var(--brand-brown-color);
+    }
+    .contacts {
+        display: block;
+        max-width: 60%;
+        font-size: 0.7rem;
+    }
+
+    .contacts-adress div{
+        line-height: 1;
+    }
+}

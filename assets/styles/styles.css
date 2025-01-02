@@ -119,15 +119,7 @@ td img {
 .offer-wrapper {
     display: flex;
     gap: 20px;
-    /* height: 0; */
-    /* overflow: hidden; */
-    
 }
-
-/* .special-offer:hover .offer-wrapper {
-    height: auto;
-    overflow: auto;
-} */
 
 .offer-image {
     width: 150px;
