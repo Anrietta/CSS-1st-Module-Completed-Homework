@@ -5,19 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chef Morgan Restaurant</title>
     <!-- <link rel="stylesheet" href="./assets/styles/reset.css"> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
 <body>
         <header class="heading">
-            <img class="heading-logo" src="https://marketplace.canva.com/EAFwIrrpQxo/1/0/1600w/canva-brown-flat-illustrative-chef-restaurant-logo-pRMi3FdE_Yc.jpg" alt="Logo">
+            <img id="main" class="heading-logo" src="https://marketplace.canva.com/EAFwIrrpQxo/1/0/1600w/canva-brown-flat-illustrative-chef-restaurant-logo-pRMi3FdE_Yc.jpg" alt="Logo">
             <h1 class="heading-title">Chef Morgan Restaurant</h1>
         </header>
         <nav class="navigation-list">
-            <a href="#">Головна</a>
-            <a href="#">Меню</a>
-            <a href="#">Контакти</a>
+            <a href="#main">Головна</a>
+            <a href="#menu">Меню</a>
+            <a href="#contact">Контакти</a>
         </nav>
 
+        <main>
+            <table>
+                <caption id="menu">меню</caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">Назва страви</th>
+                        <th hidden class="hidden-title">Назва страви</th>
+                        <th>Опис</th>
+                        <th>Вага (грам)</th>
+                        <th>Ціна (UAH)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="https://cdn-media.choiceqr.com/prod-eat-chilipizza/menu/wRlzTdQ-YIeNFeK-PLQFjme.webp" alt="Kachyne file z garbuzovym piure"></td>
+                        <td>Качине філе з гарбузовим пюре</td>
+                        <td>Гарбузове пюре, качине філе, сальса з гарбуза  та халапеньо, соус унагі</td>
+                        <td>350</td>
+                        <td>279.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://cdn-media.choiceqr.com/prod-eat-chilipizza/menu/GCWJELF-tLYoGyb-aZqQHPv.webp" alt="Kuriache stegno BBQ"></td>
+                        <td>Куряче стегно ВВQ із Запеченою картоплею</td>
+                        <td>філе стегна, мус з фети, кабачок, картопля запечена, шпинат, часникова олія, бринза, сир пармезан, соус  ВВQ</td>
+                        <td>450</td>
+                        <td>205.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://cdn-media.choiceqr.com/prod-eat-chilipizza/menu/xzehbOl-BaSDrOE-PemTAkO.webp" alt="Ialovychi mitboly"></td>
+                        <td>Яловичі мітболи з пюре</td>
+                        <td>яловичина, пюре картопляне, томатний соус, сир пармезан</td>
+                        <td>300</td>
+                        <td>209.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://cdn-media.choiceqr.com/prod-eat-chilipizza/menu/iLsHFIJ-YFIMHQr-PtLELPf.webp" alt="Kuriachyy shnitsel z grybnym sousom"></td>
+                        <td>Курячий Шніцель з Грибним Соусом та картопляним Пюре</td>
+                        <td>Курячий Шніцель у сухариках панко ,соус з білих грибів ,печериць та грибів Шиїтаке , сир пармезан, Картопляне Пюре</td>
+                        <td>350</td>
+                        <td>215.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://cdn-media.choiceqr.com/prod-eat-chilipizza/menu/FHOqTUc-qWzkeIh-UTFIIkF.webp" alt="Burger z syrnym sousom ta bekonom"></td>
+                        <td>Бургер з сирним соусом та карамелізованим беконом</td>
+                        <td>булочка бріош, котлета з яловичини, бекон, томати, айсберг, соус барбекю, сирний соус, карамелізований бекон, сир пармезан</td>
+                        <td>235</td>
+                        <td>297.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://cdn-media.choiceqr.com/prod-eat-chilipizza/menu/wRlzTdQ-YIeNFeK-PLQFjme.webp" alt="Kachyne file z garbuzovym piure"></td>
+                        <td>Качине філе з гарбузовим пюре</td>
+                        <td>Гарбузове пюре, качине філе, сальса з гарбуза  та халапеньо, соус унагі</td>
+                        <td>350</td>
+                        <td>279.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://cdn-media.choiceqr.com/prod-eat-chilipizza/menu/GCWJELF-tLYoGyb-aZqQHPv.webp" alt="Kuriache stegno BBQ"></td>
+                        <td>Куряче стегно ВВQ із Запеченою картоплею</td>
+                        <td>філе стегна, мус з фети, кабачок, картопля запечена, шпинат, часникова олія, бринза, сир пармезан, соус  ВВQ</td>
+                        <td>450</td>
+                        <td>205.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://cdn-media.choiceqr.com/prod-eat-chilipizza/menu/xzehbOl-BaSDrOE-PemTAkO.webp" alt="Ialovychi mitboly"></td>
+                        <td>Яловичі мітболи з пюре</td>
+                        <td>яловичина, пюре картопляне, томатний соус, сир пармезан</td>
+                        <td>300</td>
+                        <td>209.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://cdn-media.choiceqr.com/prod-eat-chilipizza/menu/iLsHFIJ-YFIMHQr-PtLELPf.webp" alt="Kuriachyy shnitsel z grybnym sousom"></td>
+                        <td>Курячий Шніцель з Грибним Соусом та картопляним Пюре</td>
+                        <td>Курячий Шніцель у сухариках панко ,соус з білих грибів ,печериць та грибів Шиїтаке , сир пармезан, Картопляне Пюре</td>
+                        <td>350</td>
+                        <td>215.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://cdn-media.choiceqr.com/prod-eat-chilipizza/menu/FHOqTUc-qWzkeIh-UTFIIkF.webp" alt="Burger z syrnym sousom ta bekonom"></td>
+                        <td>Бургер з сирним соусом та карамелізованим беконом</td>
+                        <td>булочка бріош, котлета з яловичини, бекон, томати, айсберг, соус барбекю, сирний соус, карамелізований бекон, сир пармезан</td>
+                        <td>235</td>
+                        <td>297.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <article class="special-offer">
+                <h2 class="special-offer-title">Особлива страва дня</h2>
+                <div class="offer-wrapper">
+                    <img class="offer-image" src="https://cdn-media.choiceqr.com/prod-eat-chilipizza/menu/llksTPD-XBInhJZ-OIrxHUl.webp" alt="Olivie z lososem">
+                    <div>
+                        <h3 class="offer-heading">Олів'є з Лососем</h3>
+                        <p>Картопля ,морква ,огірок Маринований ,горошок зелений ,перепелині яйця , червона цибуля , лосось ікра масаго</p>
+                        <p class="offer-add-descr">* Може бути на вибір з майонезом або майонезом Том ям</p>
+                        <div class="offer-weight">Вага 300грам</div>
+                        <div class="offer-price">Спеціальна ціна <span>215.00 UAH</span></div>
+                    </div>
+                </div>
+                <div class="special-offer-btn"><a href="tel:+380501234567">Замовити зараз</a></div>
+            </article>
+        </main>
+
+       <footer id="contact" class="contacts">
+        <div class="contacts-adress">
+            <h3>Контактні дані:</h3>
+            <div>Україна, Закарпатська обл., вул. Вигадана, буд. 1в</div>
+            <a href="tel:+380501234567">+38 (050) 1234567</a>
+        </div>
+        <div class="contacts-socials">
+            <h3>Ми в соцмережах:</h3>
+            <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+            <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        </div>
+       </footer>
     
     
 </body>
